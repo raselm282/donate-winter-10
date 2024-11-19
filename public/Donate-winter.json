@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "Warm Winter for Rural Communities",
+      "image": "https://i.ibb.co.com/1QDMW55/image1.jpg",
+      "description": "Providing warm clothing to underprivileged families in rural areas.",
+      "status": "Ongoing",
+      "contactInfo": "contact@winterdonations.org",
+      "division": "Dhaka"
+    },
+    {
+      "id": 2,
+      "title": "Blankets for Northern Villages",
+      "image": "https://i.ibb.co.com/SXGxQjD/image2.jpg",
+      "description": "Distributing blankets to families in the northern regions hit hardest by cold waves.",
+      "status": "Completed",
+      "contactInfo": "northernhelp@winterdonations.org",
+      "division": "Rangpur"
+    },
+    {
+      "id": 3,
+      "title": "Clothing Drive for Coastal Areas",
+      "image": "https://i.ibb.co.com/z7t7hct/image3.jpg",
+      "description": "Collecting and distributing winter clothing to low-income families in coastal divisions.",
+      "status": "Ongoing",
+      "contactInfo": "coastalteam@winterdonations.org",
+      "division": "Chittagong"
+    },
+    {
+      "id": 4,
+      "title": "Keep Sylhet Warm",
+      "image": "https://i.ibb.co.com/MGwShX7/image4.jpg",
+      "description": "Ensuring the less fortunate in Sylhet stay warm this winter season.",
+      "status": "Upcoming",
+      "contactInfo": "sylhetcare@winterdonations.org",
+      "division": "Sylhet"
+    },
+    {
+      "id": 5,
+      "title": "Helping Hands for Khulna",
+      "image": "https://i.ibb.co.com/r0k9mKR/image5.jpg",
+      "description": "Donating winter essentials to families in Khulna to combat the dropping temperatures.",
+      "status": "Ongoing",
+      "contactInfo": "khulnahelp@winterdonations.org",
+      "division": "Khulna"
+    },
+    {
+      "id": 6,
+      "title": "Warmth for Barisal's Children",
+      "image": "https://i.ibb.co.com/WgM7ryM/image6.jpg",
+      "description": "Focusing on providing warm clothing for children in Barisal's underprivileged areas.",
+      "status": "Upcoming",
+      "contactInfo": "barisalcare@winterdonations.org",
+      "division": "Barisal"
+    },
+    {
+      "id": 7,
+      "title": "Safe Winters in Mymensingh",
+      "image": "https://i.ibb.co.com/VjY98vV/image7.jpg",
+      "description": "Distributing winter clothing and essentials to families in Mymensingh.",
+      "status": "Ongoing",
+      "contactInfo": "mymensinghhelp@winterdonations.org",
+      "division": "Mymensingh"
+    },
+    {
+      "id": 8,
+      "title": "Support for Rajshahi's Farmers",
+      "image": "https://i.ibb.co.com/zs4xxDs/image8.jpg",
+      "description": "Providing winter clothing to farmers and their families in Rajshahi.",
+      "status": "Completed",
+      "contactInfo": "rajshahi@winterdonations.org",
+      "division": "Rajshahi"
+    },
+    {
+      "id": 9,
+      "title": "Cozy Winters for Kurigram",
+      "image": "https://i.ibb.co.com/5R111VK/image9.jpg",
+      "description": "Helping Kurigram's flood-affected families with winter essentials.",
+      "status": "Ongoing",
+      "contactInfo": "kurihelp@winterdonations.org",
+      "division": "Rangpur"
+    },
+    {
+      "id": 10,
+      "title": "Feni’s Fight Against Winter",
+      "image": "https://i.ibb.co.com/5R111VK/image9.jpg",
+      "description": "Ensuring families in Feni have access to blankets and warm clothes this winter.",
+      "status": "Upcoming",
+      "contactInfo": "fenihelp@winterdonations.org",
+      "division": "Chittagong"
+    }
+  ]
+  

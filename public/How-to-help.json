@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "icon": "💰",
+      "title": "Donate",
+      "description": "Support our mission by donating money or essential items.",
+      "buttonText": "Donate Now"
+    },
+    {
+      "id": 2,
+      "icon": "🤝",
+      "title": "Volunteer",
+      "description": "Join our campaigns and contribute your time to help those in need.",
+      "buttonText": "Become a Volunteer"
+    },
+    {
+      "id": 3,
+      "icon": "📣",
+      "title": "Spread the Word",
+      "description": "Share our campaigns on social media to reach more people and raise awareness.",
+      "buttonText": "Share Now"
+    }
+  ]
+  
