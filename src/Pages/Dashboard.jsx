@@ -4,8 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 
 const Dashboard = () => {
+  const navigate = useNavigate()
   const handleUpdateProfile = () => {
-    navigate("/update-profile");
+    navigate("/updateProfile");
   };
   const {user} = useContext(AuthContext)
   console.log(user);
@@ -22,7 +23,7 @@ const Dashboard = () => {
           <img
             src={user?.photoURL}
             alt={`${user.displayName}'s Profile`}
-            className="w-32 h-32 rounded-full mb-4"
+            className="w-52 h-52 rounded-lg mb-4"
           />
           <div className="text-gray-700 ">
             <p className="text-lg mb-2">

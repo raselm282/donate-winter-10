@@ -13,6 +13,7 @@ import DonationDetails from "./Pages/DonationDetails";
 import ErrorPage from "./Components/ErrorPage";
 import AuthProvider from "./AuthProvider/AuthProvider";
 import PrivateRoute from "./AuthProvider/PrivateRoute";
+import UpdateProfile from "./Pages/UpdateProfile";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
+      },
+      {
+        path: "/updateProfile",
+        element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>,
       },
       {
         path: "/login",
