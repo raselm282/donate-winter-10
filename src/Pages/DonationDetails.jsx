@@ -11,8 +11,6 @@ const DonationDetails = () => {
   }, []);
   const { title, description, division } = detail;
 
-  // another system**********
-  // const {title} = useLoaderData()
   return (
     <div className="">
       <h1 className="text-3xl font-bold text-center my-8">

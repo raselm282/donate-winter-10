@@ -9,7 +9,6 @@ const UpdateProfile = () => {
         e.preventDefault()
         const name = e.target.name.value
         const photo = e.target.photo.value
-        console.log(name,photo);
 
         updateProfile(auth.currentUser, {
             displayName: name, photoURL: photo

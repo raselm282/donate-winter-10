@@ -28,12 +28,10 @@ const Login = () => {
       });
   };
   const handleForgotPassword = () => {
-    // console.log(emailRef.current.value);
     const email = emailRef.current.value
     sendPasswordResetEmail(auth, email)
       .then(() => {
         alert("Password reset email sent!")
-        // ..
       })
       .catch((error) => {
         const errorMessage = error.message;

@@ -42,10 +42,8 @@ const signInWithGoogleFn=()=>{
       setError("Give at least one uppercase");
       return;
     }
-    // console.log(email,name,photo,password);
     createUser(email, password)
       .then((result) => {
-        console.log(result.user);
         setSuccess(true);
         toast.success('Successfully Sign Up Go to Login!')
         handleSignOut();
@@ -147,109 +145,3 @@ const signInWithGoogleFn=()=>{
 };
 
 export default Register;
-// -------------------
-{
-  /* <input
-            type={showPassword ? "text" : "password"}
-            name="password"
-            placeholder="password"
-            className="input input-bordered"
-            required
-          />
-          <button
-            onClick={() => setShowPassword(!showPassword)}
-            className="absolute right-4 top-[52px]"
-          >
-            {showPassword ? <FaEyeSlash /> : <FaEye />}
-          </button> */
-}
-// -------------------
-// import { useContext } from "react";
-// import { Link, useNavigate } from "react-router-dom";
-// import { AuthContext } from "../Providers/AuthProvider";
-
-// const Register = () => {
-//   const { createUser } = useContext(AuthContext);
-//   const navigate = useNavigate()
-
-//   const handleRegister = (e) => {
-//     e.preventDefault();
-//     const name = e.target.name.value;
-//     const email = e.target.email.value;
-//     const password = e.target.password.value;
-//     console.log(email, name);
-
-//     createUser(email, password)
-//       .then((result) => {
-//         console.log(result.user);
-//         e.target.reset()
-//         navigate('/')
-//       })
-//       .catch((error) => {
-//         console.log(error.message);
-//       });
-//   };
-
-//   return (
-//     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mx-auto">
-//       <h1 className="text-3xl font-bold ml-3 text-center mt-3">
-//         Register now!
-//       </h1>
-//       <form onSubmit={handleRegister} className="card-body">
-//         <div className="form-control">
-//           <label className="label">
-//             <span className="label-text">Name</span>
-//           </label>
-//           <input
-//             type="text"
-//             name="name"
-//             placeholder="Name"
-//             className="input input-bordered"
-//             required
-//           />
-//         </div>
-//         <div className="form-control">
-//           <label className="label">
-//             <span className="label-text">Email</span>
-//           </label>
-//           <input
-//             type="email"
-//             name="email"
-//             placeholder="Email"
-//             className="input input-bordered"
-//             required
-//           />
-//         </div>
-//         <div className="form-control">
-//           <label className="label">
-//             <span className="label-text">Password</span>
-//           </label>
-//           <input
-//             type="password"
-//             name="password"
-//             placeholder="Password"
-//             className="input input-bordered"
-//             required
-//           />
-//           <label className="label">
-//             <a href="#" className="label-text-alt link link-hover">
-//               Forgot password?
-//             </a>
-//           </label>
-//         </div>
-//         <div className="form-control mt-6">
-//           <button className="btn btn-primary text-xl">Register</button>
-//         </div>
-//       </form>
-//       <p className="ml-6 mb-4">
-//         Have an account ? Please{" "}
-//         <Link className="text-blue-700 underline" to={"/login"}>
-//           Login
-//         </Link>
-//         .
-//       </p>
-//     </div>
-//   );
-// };
-
-// export default Register;
