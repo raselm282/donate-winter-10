@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 const Campaigns = ({ campaign }) => {
     const {id,title,division,description,image} = campaign
   return (
-    <div className="card bg-base-100 shadow-xl animate__animated animate__pulse">
+    <div className="card bg-base-100 shadow-xl transition hover:scale-105 overflow-hidden ">
       <figure>
       <img
           src={image}

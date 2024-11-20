@@ -12,7 +12,7 @@ const DonationCampaigns = () => {
     <div className="w-[90%] mx-auto my-10">
       <Helmet><title>Donate For Winter | DonationCampaigns</title></Helmet>
       <strong className="text-xl">Donation Campaigns{campaigns.length}</strong>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 animate__animated animate__pulse">
         {campaigns.map((campaign) => (
           <Campaigns
             key={campaign.id}
