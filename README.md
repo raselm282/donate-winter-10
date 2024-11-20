@@ -47,3 +47,20 @@ Impact Metrics
 
 Show the cumulative impact of the platform, such as the number of donations made and people helped.
 This feature set ensures that Donate For Winter becomes a powerful and impactful platform for supporting those in need during the harsh winter months.
+
+******npm packages you have used.
+
+Core React Packages
+react: For building the user interface.
+react-dom: For rendering React components to the DOM.
+react-router-dom: For implementing routing and navigation.
+react toast
+
+
+Firebase Integration
+firebase: For authentication, database (Firestore), and storage.
+
+UI and Styling
+tailwindcss: For utility-first CSS styling (alternative to Bootstrap).
+react-icons: For adding icons to the project.
+
