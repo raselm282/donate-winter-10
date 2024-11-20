@@ -9,7 +9,6 @@ const Dashboard = () => {
     navigate("/updateProfile");
   };
   const {user} = useContext(AuthContext)
-  console.log(user);
   return (
     <div>
       <Helmet>
