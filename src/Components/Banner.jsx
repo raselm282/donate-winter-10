@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="w-[90%] mx-auto mt-8">
+    <div className="animate__animated animate__pulse w-[90%] mx-auto mt-8">
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img
