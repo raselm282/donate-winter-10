@@ -25,10 +25,11 @@ const UpdateProfile = () => {
     return (
         <div className="max-w-lg mx-auto my-10">
       <div className="card bg-base-100 w-full shrink-0 shadow-2xl">
+      <p className="my-8 text-center text-2xl font-bold">Let's Update Profile</p>
         <form onSubmit={handleUpdateProfile} className="card-body">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text">Name</span>
             </label>
             <input
               type="text"
@@ -45,7 +46,7 @@ const UpdateProfile = () => {
             <input
               type="text"
               name="photo"
-              placeholder="Photo"
+              placeholder="Photo Url"
               className="input input-bordered"
               required
             />
@@ -71,18 +72,12 @@ const UpdateProfile = () => {
           </div>
           <div className="form-control mt-6">
             <button type="submit" className="btn btn-primary text-xl">
-              Login
+            Submit to Update
             </button>
           </div>
         </form>
       </div>
-      <p className="my-8 ml-6">
-        New to This Website? Please{" "}
-        <Link className="underline text-blue-900" to={"/register"}>
-          Register
-        </Link>
-        .
-      </p>
+      
     </div>
     );
 };
