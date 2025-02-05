@@ -19,14 +19,14 @@ A **compassionate platform designed to connect donors** with people in need duri
 - **Additional Tools:** Chart.js, React Router  
 
 ## 🚀 Features  
--✅ User Authentication – Secure login & signup using Firebase Auth.
--✅ Donation Categories – Donate clothes, food, or money with ease.
--✅ Fundraising & Goal Tracking – Transparent progress bars for campaigns.
--✅ Admin Dashboard – Manage donations, users, and campaigns efficiently.
--✅ Secure Payment Integration – Process financial donations securely.
--✅ Volunteer Registration – Sign up to contribute beyond donations.
--✅ Real-Time Updates & Notifications – Stay informed on campaigns and impact.
--✅ Responsive & Modern UI – Optimized for desktop and mobile. 
+✅ User Authentication – Secure login & signup using Firebase Auth.
+✅ Donation Categories – Donate clothes, food, or money with ease.
+✅ Fundraising & Goal Tracking – Transparent progress bars for campaigns.
+✅ Admin Dashboard – Manage donations, users, and campaigns efficiently.
+✅ Secure Payment Integration – Process financial donations securely.
+✅ Volunteer Registration – Sign up to contribute beyond donations.
+✅ Real-Time Updates & Notifications – Stay informed on campaigns and impact.
+✅ Responsive & Modern UI – Optimized for desktop and mobile. 
 
 ## 📫 Contact
 If you have any questions, feel free to reach out:
