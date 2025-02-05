@@ -113,10 +113,3 @@ Let me know if you need further clarification! 🚀
 ```bash
 git clone https://github.com/raselm282/assignment11-clients.git
 
-Firebase Integration
-firebase: For authentication, database (Firestore), and storage.
-
-UI and Styling
-tailwindcss: For utility-first CSS styling (alternative to Bootstrap).
-react-icons: For adding icons to the project.
-
