@@ -45,7 +45,6 @@ The project is built with the following libraries and frameworks:
 
 | Package Name | Version |
 |-------------|---------|
-
 | firebase | ^11.1.0 |
 | localforage | ^1.10.0 |
 | match-sorter | ^8.0.0 |
