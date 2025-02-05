@@ -45,13 +45,11 @@ The project is built with the following libraries and frameworks:
 
 | Package Name | Version |
 |-------------|---------|
-| axios | ^1.7.9 |
-| date-fns | ^4.1.0 |
+
 | firebase | ^11.1.0 |
 | localforage | ^1.10.0 |
 | match-sorter | ^8.0.0 |
 | react | ^18.3.1 |
-| react-countdown-circle-timer | ^3.2.1 |
 | react-datepicker | ^7.6.0 |
 | react-dom | ^18.3.1 |
 | react-helmet | ^6.1.0 |
